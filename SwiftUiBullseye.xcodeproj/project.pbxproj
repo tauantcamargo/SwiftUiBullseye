@@ -13,6 +13,7 @@
 		CA3B896829EBA1EB00B1F448 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3B896729EBA1EB00B1F448 /* Preview Assets.xcassets */; };
 		CA3B897329EBB20300B1F448 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3B897229EBB20300B1F448 /* Game.swift */; };
 		CA3B897B29EBB58000B1F448 /* SwiftUiBullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3B897A29EBB58000B1F448 /* SwiftUiBullseyeTests.swift */; };
+		CA60F53029EC6F0200626CF6 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F52F29EC6F0200626CF6 /* TextViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		CA3B897229EBB20300B1F448 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		CA3B897829EBB58000B1F448 /* SwiftUiBullseyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiBullseyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3B897A29EBB58000B1F448 /* SwiftUiBullseyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiBullseyeTests.swift; sourceTree = "<group>"; };
+		CA60F52F29EC6F0200626CF6 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				CA3B896229EBA1EA00B1F448 /* ContentView.swift */,
+				CA60F52F29EC6F0200626CF6 /* TextViews.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA3B896329EBA1EA00B1F448 /* ContentView.swift in Sources */,
+				CA60F53029EC6F0200626CF6 /* TextViews.swift in Sources */,
 				CA3B897329EBB20300B1F448 /* Game.swift in Sources */,
 				CA3B896129EBA1EA00B1F448 /* SwiftUiBullseyeApp.swift in Sources */,
 			);
