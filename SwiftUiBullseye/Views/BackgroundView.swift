@@ -29,9 +29,9 @@ struct TopView: View {
   
   var body: some View {
     HStack {
-      RoundedImageViewStroked(systemName: "list.dash")
-      Spacer()
       RoundedImageViewStroked(systemName: "arrow.counterclockwise")
+      Spacer()
+      RoundedImageViewFilled(systemName: "list.dash")
     }
   }
 }
@@ -53,8 +53,10 @@ struct NumberView: View {
   var text: String
   
   var body: some View {
-    Color.gray
-      .frame(width: 56, height: 56)
+    VStack(spacing: 5) {
+      LabelText(text: title)
+      RoundedRectTextView(text: text)
+    }
   }
 }
 

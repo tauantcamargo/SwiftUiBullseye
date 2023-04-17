@@ -11,7 +11,7 @@ import SwiftUI
 struct TitleView: View {
   var text: String
   var body: some View {
-    Text(text)
+    Text(text.uppercased())
       .bold()
       .foregroundColor(Color("TextColor"))
       .multilineTextAlignment(.center)
@@ -41,12 +41,24 @@ struct SliderLabelText: View {
   }
 }
 
+struct LabelText: View {
+  var text: String
+  var body: some View {
+    Text(text.uppercased())
+      .kerning(1.5)
+      .font(.caption)
+      .bold()
+      .foregroundColor(Color("TextColor"))
+  }
+}
+
 struct TextViews_Previews: PreviewProvider {
   static var previews: some View {
     VStack {
       TitleView(text: "Instructions")
       BigNumberText(text: "999")
       SliderLabelText(text: "100")
+      LabelText(text: "Score")
     }
   }
 }
