@@ -14,6 +14,9 @@
 		CA3B897329EBB20300B1F448 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3B897229EBB20300B1F448 /* Game.swift */; };
 		CA3B897B29EBB58000B1F448 /* SwiftUiBullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3B897A29EBB58000B1F448 /* SwiftUiBullseyeTests.swift */; };
 		CA60F53029EC6F0200626CF6 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F52F29EC6F0200626CF6 /* TextViews.swift */; };
+		CA60F53229ECCC5000626CF6 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F53129ECCC5000626CF6 /* Shapes.swift */; };
+		CA60F53429ECEAF700626CF6 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F53329ECEAF700626CF6 /* RoundedViews.swift */; };
+		CA60F53629ECEFB700626CF6 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60F53529ECEFB700626CF6 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		CA3B897829EBB58000B1F448 /* SwiftUiBullseyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiBullseyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3B897A29EBB58000B1F448 /* SwiftUiBullseyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiBullseyeTests.swift; sourceTree = "<group>"; };
 		CA60F52F29EC6F0200626CF6 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		CA60F53129ECCC5000626CF6 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		CA60F53329ECEAF700626CF6 /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		CA60F53529ECEFB700626CF6 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 			children = (
 				CA3B896229EBA1EA00B1F448 /* ContentView.swift */,
 				CA60F52F29EC6F0200626CF6 /* TextViews.swift */,
+				CA60F53129ECCC5000626CF6 /* Shapes.swift */,
+				CA60F53329ECEAF700626CF6 /* RoundedViews.swift */,
+				CA60F53529ECEFB700626CF6 /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -227,8 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA60F53429ECEAF700626CF6 /* RoundedViews.swift in Sources */,
 				CA3B896329EBA1EA00B1F448 /* ContentView.swift in Sources */,
 				CA60F53029EC6F0200626CF6 /* TextViews.swift in Sources */,
+				CA60F53629ECEFB700626CF6 /* BackgroundView.swift in Sources */,
+				CA60F53229ECCC5000626CF6 /* Shapes.swift in Sources */,
 				CA3B897329EBB20300B1F448 /* Game.swift in Sources */,
 				CA3B896129EBA1EA00B1F448 /* SwiftUiBullseyeApp.swift in Sources */,
 			);
